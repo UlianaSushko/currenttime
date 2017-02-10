@@ -6,6 +6,7 @@ import java.util.Calendar;
  * Class to determine current system time
  */
 public class CurrentTime {
+ 11111111111222222
 	
   /**
    * Returns current system time in given format
@@ -13,8 +14,8 @@ public class CurrentTime {
    * @return current time
    */
   static public String getTime(String timeFormat) {
-    Calendar cal = Calendar.getInstance();
-	SimpleDateFormat sdf = new SimpleDateFormat(timeFormat);
-	return sdf.format(cal.getTime());
+  Calendar cal = Calendar.getInstance();
+  SimpleDateFormat sdf = new SimpleDateFormat(timeFormat);
+  return sdf.format(cal.getTime());
   }
 }
